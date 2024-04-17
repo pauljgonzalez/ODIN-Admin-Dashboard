@@ -1,4 +1,6 @@
-
+*{
+    outline: 1px solid red;
+}
 body, html{
     margin: 0;
     padding: 0;
@@ -124,4 +126,20 @@ gap: 16px;
     gap: 16px;
     border-radius: 8px;
     height: 95%;
+}
+.your-projects{
+    display: grid;
+    grid-template-rows: 5% 95%;
+    height: 95%;
+    padding-left: 16px;
+}
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(2, minmax( 20%, 50%));
+    grid-template-rows: repeat(3,1fr);
+    gap: 16px;
+}
+.card{
+    background-color: white;
+    border-radius: 8px;
 }
