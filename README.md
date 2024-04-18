@@ -5,4 +5,6 @@ Link to project: https://pauljgonzalez.github.io/ODIN-Admin-Dashboard
 
 How It's Made: Tech used: HTML, CSS, JavaScript
 
-Lessons Learned: 
+Lessons Learned: How to use grid with flexbox to layout a webpage and make it look nice.
+
+Will like to revisit this later and add bunction functionality and relook at the code
