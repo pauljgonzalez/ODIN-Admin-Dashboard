@@ -1,6 +1,4 @@
-*{
-    outline: 1px solid red;
-} 
+
 body, html{
     margin: 0;
     padding: 0;
@@ -71,7 +69,8 @@ background-color: white;
 }
 .top-bar-two{
     display: flex;
-    gap: 20vw;
+    gap: 25vw;
+    margin-bottom: 16px;
 }
 .welcome-user{
     display: flex;
@@ -101,8 +100,8 @@ background-color: white;
 grid-row: 2 / 3;
 grid-column: 2 / 3;
 display: grid;
-grid-template-columns: 2fr 1fr;
-grid-template-rows: 1fr 1fr;
+grid-template-columns: 3fr 1fr;
+grid-template-rows: 50% 50%;
 gap: 16px;
 margin-right: 10px;
 }
@@ -121,10 +120,12 @@ margin-right: 10px;
 }
 .announcement-card{
     display: grid;
-    gap: 32px;
+    gap: 16px;
     background-color: white;
     border-radius: 8px;
-    padding-top: 16px;
+    padding-top: 6px;
+    margin-bottom: 8px;
+    margin-top: 6px;
     justify-items: center;
 }
 .news-headline{
@@ -231,4 +232,33 @@ margin-right: 10px;
 }
 .bold{
     font-weight: bold;
+}
+.card{
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 3fr 1fr;
+    padding-left: 24px;
+    padding-top: 16px;
+}
+.card-container{
+    font-size: 20px;
+    width: 80%;
+    height: 80%;
+}
+.card-text{
+    margin-top: 6px;
+    font-size: 16px;
+}
+.card-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 24px;
+    gap: 32px;
+}
+.card-icons img{
+    height: 100%;
+    width: 30px;
+    position: relative;
+    bottom: 24px;
 }
