@@ -48,18 +48,24 @@ background-color: white;
     display: flex;
     gap: 32px;
 }
+.search-icon img, .top-bar-user-info img{
+    height: 100%;
+    width: 35px;
+}
 .search-bar{
     width: 30vw;
+    height: 50%;
+    background-color: lightgray;
+    border-radius: 16px;
+    align-self: center;
 }
 .top-bar-user-info{
     display: flex;
     gap: 24px;
-
 }
 .top-bar-two{
     display: flex;
-    gap: 100px;
-
+    gap: 50px;
 }
 .welcome-user{
     display: flex;
@@ -71,6 +77,18 @@ background-color: white;
 .option-buttons{
     display: flex;
     gap: 32px;
+}
+.option-buttons > *{
+    background-color: #9333ea;
+    height: 50%;
+    width: 100px;
+    align-self: center;
+    border-radius: 64px;
+    text-align: center;
+}
+.option-buttons * {
+    display: grid;
+    place-content: center;
 }
 
 .project-list{
@@ -116,7 +134,6 @@ gap: 16px;
     grid-template-columns: .9fr;
     height: 90%;
 }
-
 .trending-card{
     background-color: white;
     display: grid;
@@ -154,9 +171,10 @@ gap: 16px;
     align-items: center;
     gap: 16px;
 }
-.sidebar-text{
+.sidebar-text, .user-name, .welcome-message{
     font-weight: bold;
     font-size: 24px;
+    align-self: center;
 }
 .sidebar-one .sidebar-container img{
     height: 100%;
@@ -164,5 +182,9 @@ gap: 16px;
 }
 .sidebar-one .sidebar-container .sidebar-text{
     font-size: 40px;
-
+}
+.profile-image img{
+    height: 100%;
+    width: 70px;
+    border-radius: 128px;
 }
